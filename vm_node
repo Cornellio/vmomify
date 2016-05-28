@@ -1,0 +1,82 @@
+#!/usr/bin/python
+
+'''
+Tool for interacting with the VMWare API using vmomi.
+
+Key capabilities will target the preparation of machines for Kickstart
+deployments, including:
+* List VMs
+* Provision or clone VM
+* Lookup VM MAC address
+* Boot VM
+* Report summary VM informaiton
+'''
+
+import getpass
+import argparse
+import re
+import ssl
+import sys
+from pyVim import connect
+from pyVmomi import vmodl
+
+
+def vprint(verbose, *message):
+    pass
+
+
+def process_args():
+    pass
+
+
+def report(domain, username, pw, server, verbose):
+    pass
+
+
+def get_password(username, domain, pw):
+    pass
+
+
+def vcenter_connect(server, user, pw, request,
+    pass
+
+
+def find_vm(user, domain, pw, server, name):
+    pass
+
+
+def vm_list(domain, username, pw, server, verbose, cluster, datacenter, name, regex, template_only, detailed_list, vm_status):
+    pass
+
+
+def provision(domain, username, pw, server, verbose, source, name, res_pool, num):
+    pass
+
+
+def get_resource_pools(domain, username, pw, server, verbose):
+    pass
+
+
+def get_mac_address(domain, username, pw, server, vm, verbose):
+    pass
+
+
+def power_on(domain, username, pw, server, vm, verbose):
+    pass
+
+
+def power_off(domain, username, pw, server, vm, verbose):
+    pass
+
+
+def get_datacenters(domain, username, pw, server, verbose):
+    pass
+
+
+def main():
+    '''Let's do this thing'''
+    pass
+
+
+if __name__ == '__main__':
+    main()
